@@ -1,0 +1,24 @@
+* {
+    font-family: "Roboto", system-ui;
+  }
+  a.linkInicio {
+    transition: all 0.1s linear;
+  }
+  a.linkInicio:hover {
+    text-decoration: underline !important;
+    transform: scale(1.1);
+  }
+  .text-justify {
+    text-align: justify;
+  }
+  @media screen and (max-width: 767px) {
+    .navBarSmall {
+      display: flex !important;
+    }
+    .navBarBig {
+      display: none !important;
+    }
+  }
+  .fa-solid{
+    font-size: 1rem;
+  }
